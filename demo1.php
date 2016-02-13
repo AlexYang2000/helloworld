@@ -1,4 +1,8 @@
 <?php
-$products=array(1,2,3);
+$products=array(
+    $array =array('Apple',18,50),
+    $array =array('Pork',2,32),
+    $array =array('Bisciut',3,21)
+	);
 print_r($products);
 ?>
