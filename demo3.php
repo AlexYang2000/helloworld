@@ -11,7 +11,7 @@ array_shift($products);
 print_r($products);
 array_pop($products);
 print_r($products);
-$i=array_rand($products,2);
+$i=array_rand($products,3);
 echo($i[0]);
 echo($i[1]);
 ?>
