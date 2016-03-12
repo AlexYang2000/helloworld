@@ -1,10 +1,5 @@
-<?php
-echo'file upload';
-?>
 <form action="demo2.php" method="post" enctype="multipart/form-data">
-<label for="file">Filename:</label>
-<input type="file" name="file" id="file" /> 
-<br />
-<input type="submit" name="submit" value="Submit" />
+<span>Upload Files</span>
+<input type="file" name="userfile" />
+<input type="submit" name="submit" value="Submit"/>
 </form>
-
